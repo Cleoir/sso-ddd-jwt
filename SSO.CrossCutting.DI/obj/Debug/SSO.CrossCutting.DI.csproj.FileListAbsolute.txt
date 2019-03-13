@@ -1,0 +1,12 @@
+C:\GitBucket\docchain.sso\SSO.CrossCutting.DI\bin\Debug\SSO.CrossCutting.DI.dll
+C:\GitBucket\docchain.sso\SSO.CrossCutting.DI\bin\Debug\SSO.CrossCutting.DI.pdb
+C:\GitBucket\docchain.sso\SSO.CrossCutting.DI\bin\Debug\Autofac.dll
+C:\GitBucket\docchain.sso\SSO.CrossCutting.DI\bin\Debug\Autofac.Extras.CommonServiceLocator.dll
+C:\GitBucket\docchain.sso\SSO.CrossCutting.DI\bin\Debug\CommonServiceLocator.dll
+C:\GitBucket\docchain.sso\SSO.CrossCutting.DI\bin\Debug\Autofac.xml
+C:\GitBucket\docchain.sso\SSO.CrossCutting.DI\bin\Debug\Autofac.Extras.CommonServiceLocator.xml
+C:\GitBucket\docchain.sso\SSO.CrossCutting.DI\obj\Debug\SSO.CrossCutting.DI.csprojResolveAssemblyReference.cache
+C:\GitBucket\docchain.sso\SSO.CrossCutting.DI\obj\Debug\SSO.CrossCutting.DI.csproj.CoreCompileInputs.cache
+C:\GitBucket\docchain.sso\SSO.CrossCutting.DI\obj\Debug\SSO.CrossCutting.DI.csproj.CopyComplete
+C:\GitBucket\docchain.sso\SSO.CrossCutting.DI\obj\Debug\SSO.CrossCutting.DI.dll
+C:\GitBucket\docchain.sso\SSO.CrossCutting.DI\obj\Debug\SSO.CrossCutting.DI.pdb

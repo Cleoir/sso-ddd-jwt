@@ -1,0 +1,84 @@
+             -------------- Error (2019-03-08 15:04:24.1570) --------------
+             
+             Call Site: SSO.Api.Controllers.TokenController.Get
+             Exception Type: System.Web.Http.HttpResponseException
+             Exception Message: Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+             Stack Trace:    em SSO.Api.Controllers.TokenController.Get(String username, String password) na C:\GitBucket\docchain.sso\SSO.Api\Controllers\TokenController.cs:linha 36
+             Additional Info: Error!
+
+             -------------- Error (2019-03-08 15:06:36.0066) --------------
+             
+             Call Site: SSO.Api.Controllers.TokenController.Get
+             Exception Type: System.Web.Http.HttpResponseException
+             Exception Message: Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+             Stack Trace:    em SSO.Api.Controllers.TokenController.Get(String username, String password) na C:\GitBucket\docchain.sso\SSO.Api\Controllers\TokenController.cs:linha 36
+             Additional Info: Error!
+
+             -------------- Error (2019-03-08 15:10:13.6686) --------------
+             
+             Call Site: SSO.Api.Controllers.TokenController.Get
+             Exception Type: System.Web.Http.HttpResponseException
+             Exception Message: Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+             Stack Trace:    em SSO.Api.Controllers.TokenController.Get(String username, String password) na C:\GitBucket\docchain.sso\SSO.Api\Controllers\TokenController.cs:linha 36
+             Additional Info: Error!
+
+             -------------- Error (2019-03-08 15:23:03.8638) --------------
+             
+             Call Site: SSO.Api.Controllers.TokenController.Get
+             Exception Type: System.Web.Http.HttpResponseException
+             Exception Message: Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+             Stack Trace:    em SSO.Api.Controllers.TokenController.Get(String username, String password) na C:\GitBucket\docchain.sso\SSO.Api\Controllers\TokenController.cs:linha 36
+             Additional Info: Error!
+
+             -------------- Error (2019-03-08 15:44:14.4826) --------------
+             
+             Call Site: SSO.Api.Controllers.TokenController.Get
+             Exception Type: System.Web.Http.HttpResponseException
+             Exception Message: Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+             Stack Trace:    em SSO.Api.Controllers.TokenController.Get(String username, String password) na C:\GitBucket\docchain.sso\SSO.Api\Controllers\TokenController.cs:linha 36
+             Additional Info: Error!
+
+             -------------- Error (2019-03-08 15:50:10.9973) --------------
+             
+             Call Site: SSO.Api.Controllers.TokenController.Get
+             Exception Type: System.ArgumentNullException
+             Exception Message: Valor não pode ser nulo.
+Nome do parâmetro: value
+             Stack Trace:    em System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   em System.Security.Claims.Claim..ctor(String type, String value)
+   em SSO.Api.JwtManager.GenerateToken(String username, Int32 expireMinutes) na C:\GitBucket\docchain.sso\SSO.Api\JwtManager\JwtManager.cs:linha 30
+   em SSO.Api.Controllers.TokenController.Get(String username, String password) na C:\GitBucket\docchain.sso\SSO.Api\Controllers\TokenController.cs:linha 34
+             Additional Info: Error!
+
+             -------------- Error (2019-03-08 16:18:28.9046) --------------
+             
+             Call Site: SSO.Api.Controllers.TokenController.Get
+             Exception Type: System.ArgumentNullException
+             Exception Message: Valor não pode ser nulo.
+Nome do parâmetro: value
+             Stack Trace:    em System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   em System.Security.Claims.Claim..ctor(String type, String value)
+   em SSO.Api.JwtManager.GenerateToken(String username, Int32 expireMinutes) na C:\GitBucket\docchain.sso\SSO.Api\JwtManager\JwtManager.cs:linha 30
+   em SSO.Api.Controllers.TokenController.Get(String username, String password) na C:\GitBucket\docchain.sso\SSO.Api\Controllers\TokenController.cs:linha 34
+             Additional Info: Error!
+
+             -------------- Error (2019-03-08 16:19:16.4872) --------------
+             
+             Call Site: SSO.Api.Controllers.TokenController.Get
+             Exception Type: System.ArgumentNullException
+             Exception Message: Valor não pode ser nulo.
+Nome do parâmetro: value
+             Stack Trace:    em System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   em System.Security.Claims.Claim..ctor(String type, String value)
+   em SSO.Api.JwtManager.GenerateToken(String username, Int32 expireMinutes)
+   em SSO.Api.Controllers.TokenController.Get(String username, String password)
+             Additional Info: Error!
+
+             -------------- Error (2019-03-08 18:17:14.5169) --------------
+             
+             Call Site: SSO.Api.Controllers.UserController.GetUsers
+             Exception Type: System.NullReferenceException
+             Exception Message: Referência de objeto não definida para uma instância de um objeto.
+             Stack Trace:    em SSO.Api.Controllers.UserController.GetUsers()
+             Additional Info: Error!
+

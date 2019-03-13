@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SSO.Api</name>
+    </assembly>
+    <members>
+        <member name="T:SSO.Api.FilterConfig">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="T:SSO.Api.App_Start.IocConfig">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:SSO.Api.App_Start.IocConfig.GetContainer">
+            <summary>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSO.Api.SwaggerConfig">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.SwaggerConfig.Register">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="T:SSO.Api.WebApiConfig">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.WebApiConfig.Register(System.Web.Http.HttpConfiguration)">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="T:SSO.Api.Controllers.Base.BaseController">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:SSO.Api.Controllers.Base.BaseController.#ctor">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:SSO.Api.Controllers.Base.BaseController.CreateResponse(System.Net.HttpStatusCode,System.Object)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:SSO.Api.Controllers.Base.BaseController.GetInstance``1">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:SSO.Api.Controllers.Base.BaseController.Dispose(System.Boolean)">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="T:SSO.Api.Controllers.TokenController">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.Controllers.TokenController.Get(System.String,System.String)">
+            <summary>
+            Parameter username and password.
+            </summary>
+            <remarks>
+            Return token.
+            </remarks>
+        </member>
+        <member name="T:SSO.Api.Controllers.UserController">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.Controllers.UserController.GetUsers">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="T:SSO.Api.Filters.AddChallengeOnUnauthorizedResult">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.Filters.AddChallengeOnUnauthorizedResult.#ctor(System.Net.Http.Headers.AuthenticationHeaderValue,System.Web.Http.IHttpActionResult)">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="P:SSO.Api.Filters.AddChallengeOnUnauthorizedResult.Challenge">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="P:SSO.Api.Filters.AddChallengeOnUnauthorizedResult.InnerResult">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.Filters.AddChallengeOnUnauthorizedResult.ExecuteAsync(System.Threading.CancellationToken)">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="T:SSO.Api.Filters.AuthenticationFailureResult">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.Filters.AuthenticationFailureResult.#ctor(System.String,System.Net.Http.HttpRequestMessage)">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="P:SSO.Api.Filters.AuthenticationFailureResult.ReasonPhrase">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="P:SSO.Api.Filters.AuthenticationFailureResult.Request">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.Filters.AuthenticationFailureResult.ExecuteAsync(System.Threading.CancellationToken)">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="T:SSO.Api.Filters.HttpAuthenticationChallengeContextExtensions">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.Filters.HttpAuthenticationChallengeContextExtensions.ChallengeWith(System.Web.Http.Filters.HttpAuthenticationChallengeContext,System.String)">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.Filters.HttpAuthenticationChallengeContextExtensions.ChallengeWith(System.Web.Http.Filters.HttpAuthenticationChallengeContext,System.String,System.String)">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.Filters.HttpAuthenticationChallengeContextExtensions.ChallengeWith(System.Web.Http.Filters.HttpAuthenticationChallengeContext,System.Net.Http.Headers.AuthenticationHeaderValue)">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="T:SSO.Api.Filters.JwtAuthenticationAttribute">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="P:SSO.Api.Filters.JwtAuthenticationAttribute.Realm">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="P:SSO.Api.Filters.JwtAuthenticationAttribute.AllowMultiple">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.Filters.JwtAuthenticationAttribute.AuthenticateAsync(System.Web.Http.Filters.HttpAuthenticationContext,System.Threading.CancellationToken)">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.Filters.JwtAuthenticationAttribute.AuthenticateJwtToken(System.String)">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.Filters.JwtAuthenticationAttribute.ChallengeAsync(System.Web.Http.Filters.HttpAuthenticationChallengeContext,System.Threading.CancellationToken)">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="T:SSO.Api.WebApiApplication">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.WebApiApplication.Application_Start">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="T:SSO.Api.JwtManager">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="F:SSO.Api.JwtManager.SecretKey">
+            <Summary>
+            Use the below code to generate symmetric Secret Key
+            Use top class is library: using System.Security.Cryptography;
+            Use inside method GenerateToken
+                var hmac = new HMACSHA256();
+                var key = Convert.ToBase64String(hmac.Key);
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.JwtManager.GenerateToken(System.String,System.Int32)">
+            <Summary>
+            </Summary>
+        </member>
+        <member name="M:SSO.Api.JwtManager.GetPrincipal(System.String)">
+            <Summary>
+            </Summary>
+        </member>
+    </members>
+</doc>
